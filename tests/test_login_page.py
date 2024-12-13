@@ -3,8 +3,8 @@ import time
 
 def test_login(page):
     # Replace these with valid credentials
-    username = "tkolhar+po@beyondtrust.com"
-    password = "gaLAxy#18"
+    username = ""
+    password = ""
 
     login_page = LoginPage(page)
     login_page.navigate()
